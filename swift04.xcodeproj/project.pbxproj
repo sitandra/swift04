@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		DFA1A16C2A72C95D00582180 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA1A16B2A72C95D00582180 /* main.swift */; };
+		DFA1A1732A76CDBA00582180 /* Worker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA1A1722A76CDBA00582180 /* Worker.swift */; };
+		DFA1A1752A76CEFD00582180 /* Pizzeria.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA1A1742A76CEFD00582180 /* Pizzeria.swift */; };
+		DFA1A1772A76CF5D00582180 /* Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA1A1762A76CF5D00582180 /* Table.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		DFA1A1682A72C95D00582180 /* swift04 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = swift04; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFA1A16B2A72C95D00582180 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		DFA1A1722A76CDBA00582180 /* Worker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Worker.swift; sourceTree = "<group>"; };
+		DFA1A1742A76CEFD00582180 /* Pizzeria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizzeria.swift; sourceTree = "<group>"; };
+		DFA1A1762A76CF5D00582180 /* Table.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Table.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				DFA1A16B2A72C95D00582180 /* main.swift */,
+				DFA1A1722A76CDBA00582180 /* Worker.swift */,
+				DFA1A1742A76CEFD00582180 /* Pizzeria.swift */,
+				DFA1A1762A76CF5D00582180 /* Table.swift */,
 			);
 			path = swift04;
 			sourceTree = "<group>";
@@ -120,7 +129,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFA1A1752A76CEFD00582180 /* Pizzeria.swift in Sources */,
 				DFA1A16C2A72C95D00582180 /* main.swift in Sources */,
+				DFA1A1772A76CF5D00582180 /* Table.swift in Sources */,
+				DFA1A1732A76CDBA00582180 /* Worker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
